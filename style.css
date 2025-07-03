@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif; /* Example font */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1f1f1; /* Light gray background */
+    padding: 10px;
+    text-align: center;
+}
+
+.vertical-nav { /* Styling for the vertical navigation bar */
+    width: 200px; /* Adjust width as needed */
+    background-color: #334a94; /* Dark blue background */
+    float: left; /* Places the navigation on the left */
+    padding: 5px; /* Adds padding inside the navigation */
+}
+
+.vertical-nav ul {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Takes full width of the navigation bar */
+}
+
+.vertical-nav li a { /* Styles links within list items */
+    display: block; /* Makes the entire link area clickable */
+    color: white; /* White text color */
+    padding: 8px 16px; /* Adds padding to the links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.vertical-nav li a:hover { /* Hover effect for links */
+    background-color: #786ED4; /* Light purple on hover */
+    color: black; /* Black text on hover */
+}
+
+main {
+    margin-left: 210px; /* Creates space for the vertical navigation */
+    padding: 20px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    clear: both; /* Ensures footer is below the floated navigation */
+}

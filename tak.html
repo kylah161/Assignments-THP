@@ -1,59 +1,55 @@
 <!DOCTYPE html>
+
 <html lang="en">
+  
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Welcome - My e-Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Final Project</title>
 </head>
+  
 <body>
 
-  <header>
-    <h1>Welcome to My e-Portfolio</h1>
-    <nav>
-      <ul class="navbar">
-          .navbar {
-  list-style-type: none;
-  padding: 0;
-  margin: 10px 0 0;
-  display: flex;
-  gap: 20px;
-}
+    <header>
+        <nav class="nav__bar" id="navbar">
+            <ul>
+                <li><a class="nav__links" href="#welcome-section">About</a></li>
+                <li><a class="nav__links" href="#projects">Work</a></li>
+                <li><a class="nav__links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
 
-.navbar li {
-  display: inline;
-}
+        <section class="section__first" id="welcome-section">
+            <h1 class="section__h1">Hey I am Ghady</h1>
+            <p class="section__p">a web developer</p>
+        </section>
+    </header>
 
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+    <main>
+        <section class="section__projects" id="projects">
+            <!-- Project tiles go here -->
+        </section>
+    </main>
 
-.navbar a:hover {
-  text-decoration: underline;
-}
-
-          
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="about-me">
-      <h2>About Me</h2>
-      <p>Hello! I'm Alex, a passionate web developer who loves building simple, elegant, and functional websites. I'm currently studying Computer Science and enjoy learning about frontend technologies like HTML, CSS, and JavaScript.</p>
-      <p>My goal is to become a full-stack developer and contribute to open-source projects that make a positive impact on the world.</p>
+    <section class="section__contact" id="contact">
+        <div class="contact__header">
+            <h2 class="contact__h2">Let's work together...</h2>
+            <p class="contact__p">How do you take your coffee?</p>
+        </div>
+        <div class="contact__links">
+            <a href="https://www.facebook.com/freecodecamp" class="profile-link" target="_blank">Facebook</a>
+            <a href="https://github.com/freecodecamp" class="profile-link" target="_blank">Github</a>
+            <a href="https://twitter.com/freecodecamp" class="profile-link" target="_blank">Twitter</a>
+            <a href="mailto:example@example.com" class="profile-link" target="_blank">Send an Email</a>
+            <a href="tel:555-555-5555" class="profile-link" target="_blank">Call me</a>
+        </div>
     </section>
-  </main>
 
-  <footer>
-    <p>&copy; 2025 Alex's Portfolio</p>
-  </footer>
-
+    <footer class="footer">
+        <p class="wrap inline">**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+        <p class="wrap inline">&copy; Created for <a class="footer__link" href="https://freecodecamp.org/">freeCodeCamp</a></p>
+    </footer>
 </body>
+  
 </html>

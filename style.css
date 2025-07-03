@@ -5,14 +5,14 @@ body {
 }
 
 header {
-    background-color: #f1f1f1; /* Light gray background */
+    background-color: #F3D9B1; /* Light gray background */
     padding: 10px;
     text-align: center;
 }
 
 .vertical-nav { /* Styling for the vertical navigation bar */
     width: 200px; /* Adjust width as needed */
-    background-color: #334a94; /* Dark blue background */
+    background-color: #CC59D2; /* Dark blue background */
     float: left; /* Places the navigation on the left */
     padding: 5px; /* Adds padding inside the navigation */
 }
@@ -31,19 +31,19 @@ header {
     text-decoration: none; /* Removes underline from links */
 }
 
-.vertical-nav li a:hover { /* Hover effect for links */
-    background-color: #786ED4; /* Light purple on hover */
-    color: black; /* Black text on hover */
+.vertical-nav li a:hover { 
+    background-color: ##90C2E7;
+    color: black; 
 }
 
 main {
-    margin-left: 210px; /* Creates space for the vertical navigation */
+    margin-left: 210px; 
     padding: 20px;
 }
 
 footer {
-    background-color: #f1f1f1;
+    background-color: #;
     text-align: center;
     padding: 10px;
-    clear: both; /* Ensures footer is below the floated navigation */
+    clear: both; 
 }

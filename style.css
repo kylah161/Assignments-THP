@@ -26,13 +26,13 @@ header {
 
 .vertical-nav li a { /* Styles links within list items */
     display: block; /* Makes the entire link area clickable */
-    color: white; /* White text color */
+    color: #F3D9B1; /* White text color */
     padding: 8px 16px; /* Adds padding to the links */
     text-decoration: none; /* Removes underline from links */
 }
 
 .vertical-nav li a:hover { 
-    background-color: ##90C2E7;
+    background-color: #90C2E7;
     color: black; 
 }
 
@@ -42,7 +42,7 @@ main {
 }
 
 footer {
-    background-color: #;
+    background-color: #4DA167;
     text-align: center;
     padding: 10px;
     clear: both; 
